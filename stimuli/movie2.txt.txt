@@ -1,0 +1,10 @@
+movie
+
+file = C:\data\code\stim 110706\out2.gif
+
+delay = 0
+
+loops = -1
+
+fps_mode = triple
+

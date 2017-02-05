@@ -1,0 +1,10 @@
+movinggrating
+
+period = 80
+speed = 1
+angle = 90
+ccw = 1;
+
+tframes = 100
+nloops = 1
+

@@ -1,0 +1,7 @@
+flicker
+
+hz = 90
+duty_cycle =  1
+intensity =  1
+nFrames = 0
+

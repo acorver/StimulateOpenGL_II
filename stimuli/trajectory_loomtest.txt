@@ -1,0 +1,52 @@
+movingobjects
+
+delay = 0
+rndtrial = 0
+
+numObj = 1
+
+objLen = 20
+
+objVelx = 0
+ 
+objVely = 0
+
+objVelz = 6
+
+objXinit = 640
+
+objYinit = 400
+
+objZinit = 1000
+
+objPhi = 0
+objSpin = 2
+tframes= 1900
+nloops = 1000
+
+jittermag = 1
+jitterlocal = false
+
+objcolor = 1
+
+bgcolor = 0.75
+
+objType = sphere
+
+sharedLight = true
+
+wrap = false
+
+lightAmbient = .8
+lightDiffuse = 1
+lightSpecular = 1
+objAmbient = .3
+objEmission = .05
+objShininess = 1
+objSpecular = 1
+
+lightPos = 640 36000 -50000
+
+#zBoundsNear = -100
+zboundsfar = 1500
+

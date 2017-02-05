@@ -1,0 +1,30 @@
+movingobjects
+
+delay = 0
+
+rndtrial = 0
+
+numObj = 1
+
+objLenX = 100
+
+objLenY = 25
+
+objVelx = 2
+ 
+objVely = 1
+
+objXinit = 640
+
+objYinit = 360
+
+tframes= 24000
+nloops = 1
+
+objcolor = 0
+
+bgcolor = 1
+
+objType = ellipse
+
+

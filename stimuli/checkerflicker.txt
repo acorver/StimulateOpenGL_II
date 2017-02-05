@@ -1,0 +1,15 @@
+checkerflicker
+
+stixelwidth =  2
+stixelheight = 2
+
+bgcolor = 0.5
+contrast = 1
+
+rand_gen = gauss
+
+cores = 4
+fbo = 200
+colortable = 19
+
+verboseDebug=false

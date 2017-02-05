@@ -1,0 +1,8 @@
+flicker
+
+hz = 1
+
+duty_cycle =  1
+
+intensity = 0
+

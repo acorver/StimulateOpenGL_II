@@ -1,0 +1,5 @@
+movinggrating
+period = 200
+speed = 5
+angle = 180
+ccw = 1;

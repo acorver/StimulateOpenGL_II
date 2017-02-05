@@ -1,0 +1,49 @@
+movingobjects
+
+
+numObj = 15
+nloops = 2
+frame_vars = C:\data\code\stim 110706\MovingObjects_data.txt
+
+
+objXinit = 640
+
+objYinit = 360
+
+objZinit = 300
+
+objPhi = 0
+
+objSpin = 2
+
+jittermag = 1
+jitterlocal = false
+
+objColor = 0
+#objcolor1 = 1  
+
+bgcolor = 0.75
+
+objType = sphere
+objLen= 20
+objLen3 = 300
+objType5 = circle
+objType3 = box
+
+sharedLight = true
+
+wrap = false
+
+lightAmbient = .8
+lightDiffuse = 1
+lightSpecular = 1
+objAmbient = .3
+objEmission = .05
+objShininess = 1
+objSpecular = 1
+
+lightPos = 640 36000 -50000
+
+zboundsnear = -1000
+zboundsfar = 700
+
