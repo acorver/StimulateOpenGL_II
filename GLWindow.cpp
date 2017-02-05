@@ -933,6 +933,7 @@ StimPlugin *GLWindow::pluginFind(const QString &name, bool casesensitive)
 #include "MovingObjects.h"
 #include "Movie.h"
 #include "DummyPlugin.h"
+#include "Starfield.h"
 
 void GLWindow::initPlugins()
 {
@@ -952,6 +953,7 @@ void GLWindow::initPlugins()
 	new MovingObjects();   // experiment plugin.. bouncey square, ellipses, and spheres on steroids!
     new Movie(); // plays GIF animation movies!
     new DummyPlugin(); // used internally
+	new Starfield(); // experiment plugin.. starfield, simulates global optic flow
     // TODO: more plugins here
 
     Log() << "Initialized " << pluginsList.size() << " plugins.";
