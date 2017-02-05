@@ -30,4 +30,6 @@ UpgradeLog.XML
 *.asv
 *.idb
 *.pdb
-
+enc_temp_folder/
+GeneratedFiles/
+archive/
