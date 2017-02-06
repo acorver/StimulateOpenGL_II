@@ -195,9 +195,6 @@
     <ClCompile Include="GeneratedFiles\qrc_shaders.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="Starfield_Old.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Starfield.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -255,9 +252,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MovingObjects.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MovingObjects_Old.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RNG.h">

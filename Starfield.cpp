@@ -61,6 +61,7 @@ bool Starfield::init()
 	if (getParam("trialMinVel"     , out)) { paramTrialMinVel     = out; } else { paramTrialMinVel     = 40;   }
 	if (getParam("starGrid"        , out)) { paramStarGrid        = out; } else { paramStarGrid        = 0;    }
 	if (getParam("camPosZ"         , out)) { paramCamPosZ         = out; } else { paramCamPosZ         = 0;    }
+	if (getParam("wireframe"       , out)) { paramWireFrame       = out; } else { paramWireFrame       = 0;    }
 
 	// Initialize variables
 	m_vAxisOfRotation = Vec3(1, 0, 0);
@@ -97,7 +98,13 @@ bool Starfield::init()
 
 			s.pQ = gluNewQuadric();
 			gluQuadricNormals(s.pQ, GLU_SMOOTH);
-			gluQuadricDrawStyle(s.pQ, GLU_FILL);
+
+			if (paramWireFrame != 1)
+			{
+				gluQuadricDrawStyle(s.pQ, GLU_FILL);
+			} else {
+				gluQuadricDrawStyle(s.pQ, GLU_LINE);
+			}
 			gluQuadricOrientation(s.pQ, GLU_OUTSIDE);
 
 			m_vShapes.push_back(s);

@@ -38,6 +38,8 @@ public:
 	int    paramStarGrid;
 	double paramCamPosZ;
 	double paramObjColor;
+	int    paramWireFrame;
+
 	int    nSubFrames;
 
 

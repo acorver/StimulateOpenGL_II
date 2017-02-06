@@ -3,7 +3,7 @@ starfield
 bgcolor = 1
 density = 0.0001
 skyRadius = 1000
-starRadius = 5
+starRadius = 40
 trialsAzimuth = 20
 trialsElevation = 10
 trialDuration = 4
@@ -14,4 +14,4 @@ trialsVelocity = 3
 objColor = 0.0
 starGrid = 0
 camPosZ = 0
-wireframe = 0
+wireframe = 1

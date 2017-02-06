@@ -216,7 +216,6 @@
     <ClCompile Include="Sawtooth.cpp" />
     <ClCompile Include="Shapes.cpp" />
     <ClCompile Include="Starfield.cpp" />
-    <ClCompile Include="Starfield_Old.cpp" />
     <ClCompile Include="StimApp.cpp" />
     <ClCompile Include="StimGL_SpikeGL_Integration.cpp" />
     <ClCompile Include="StimParams.cpp" />
@@ -294,7 +293,6 @@
     </CustomBuild>
     <ClInclude Include="MovingGrating.h" />
     <ClInclude Include="MovingObjects.h" />
-    <ClInclude Include="MovingObjects_Old.h" />
     <ClInclude Include="RNG.h" />
     <ClInclude Include="Sawtooth.h" />
     <ClInclude Include="Shapes.h" />
